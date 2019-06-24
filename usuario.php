@@ -1,6 +1,6 @@
 <?php 
 
-$user = $_POST['user']; //recepcion de valor POST usuario del archivo index.php en variable $user
+$user = $_POST['email']; //recepcion de valor POST usuario del archivo index.php en variable $user
 $pass= $_POST['password']; //recepcion de valor POST password del archivo index.php en variable $pass
 
 $correcto = false; //bandera indicador logeo correcto o erroneo
@@ -23,7 +23,8 @@ for($i=0;$i<count($lineas);$i++){ //sentencia de control FOR empieza a realizar 
     }
 }
 if($correcto==true){
-    echo "El usuario ha ingresado correctamente!";
+    //echo "El usuario ha ingresado correctamente!";
+    header('location: catalogo.php');
 }else{
     echo "Nombre de usuario y/o password inv&aacute;lidos";
 }
