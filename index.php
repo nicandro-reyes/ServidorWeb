@@ -44,7 +44,7 @@
                 <!-- Ingresa Usuario -->
                 <div class="input-group input-group-lg">
                      <span class="input-group-addon" id="sizing-addon1"><i class="glyphicon glyphicon-envelope"></i></span> 
-                        <input class="form-control" name="email" type="email" id="emailaddress" required="" placeholder="Correo">
+                        <input class="form-control" name="username" id="emailaddress" required="" placeholder="Correo">
                 </div>
                 <br>
                 <!-- Ingresa Contraseña -->
@@ -55,6 +55,7 @@
                 <br>
                 <!-- Boton de Ingreso -->
                     <button class="btn btn-lg btn-primary btn-block btn-signin" id="IngresoLog" type="submit">Entrar</button>    
+                    <a href="registrouser.php">Registrarse</a>
 
 <!-- Pie de pagina-->
                 <div class="footer">
